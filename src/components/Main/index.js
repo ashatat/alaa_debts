@@ -10,7 +10,7 @@ class Main extends Component {
 
   updateAmount = (e) => {
     const { value } = e.target;
-    if (value >= 0) {
+    if (value >= 50) {
       this.setState({ amount: value });
     }
   };
