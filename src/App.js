@@ -1,23 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import Header from './components/Header';
-import Card from './components/Card';
-import ImagesWrapper from './components/ImagesWrapper';
-
-import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
-      <div id="aaa">asdfasdf</div>
-      <Header sirName="nabahin" className="header" />
-      <ImagesWrapper>
-        <Card imageUrl="https://static.toiimg.com/photo/72975551.cms"/>
-        <Card imageUrl="https://static.toiimg.com/photo/72975551.cms"/>
-        <Card imageUrl="https://static.toiimg.com/photo/72975551.cms"/>
-        <Card imageUrl="https://static.toiimg.com/photo/72975551.cms"/>
-        <Card imageUrl="https://static.toiimg.com/photo/72975551.cms"/>
-      </ImagesWrapper>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
